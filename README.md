@@ -54,7 +54,7 @@ cd web && npm install && npm run dev  # http://localhost:5173
 ```bash
 git clone https://github.com/LUCLO5/yield.git
 cd yield
-python -m pmscan --help          # runs straight from the repo (Python 3.9+)
+python -m pmscan --help          # runs straight from the repo (Python 3.10+)
 
 # or install the `pmscan` command
 pip install -e .
