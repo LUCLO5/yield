@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+build/
+dist/
+*.csv
+*.json
+!pyproject.toml
+!web/package.json
+!web/package-lock.json
+web/node_modules/
+web/dist/
+.DS_Store
+uv.lock
