@@ -20,3 +20,7 @@ pmscan = "pmscan.cli:main"
 
 [tool.setuptools.packages.find]
 include = ["pmscan*"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
